@@ -23,6 +23,7 @@ namespace WebServiceTheatre
         List<Place> placeList = new List<Place>();
         List<Price> priceList = new List<Price>();
 
+        //додавання юзера при реєстрації
        [WebMethod]
         public AccountClient AddClient(string name, string surname, string e_mail, string pin, string address, bool type)
         {
